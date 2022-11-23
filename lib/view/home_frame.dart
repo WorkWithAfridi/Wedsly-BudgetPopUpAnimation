@@ -32,7 +32,7 @@ class HomeFrame extends StatelessWidget {
                               children: [
                                 AnimatedPositioned(
                                   bottom: controller.startBudgetFloatingActionButtonAnimation.value ? 20 : -80,
-                                  left: Get.width / 5,
+                                  left: Get.width / 4.5,
                                   duration: const Duration(
                                     milliseconds: 200,
                                   ),
@@ -45,7 +45,7 @@ class HomeFrame extends StatelessWidget {
                                 ),
                                 AnimatedPositioned(
                                   bottom: controller.startBudgetFloatingActionButtonAnimation.value ? 90 : -80,
-                                  left: Get.width / 5,
+                                  left: Get.width / 4.5,
                                   duration: const Duration(
                                     milliseconds: 200,
                                   ),
